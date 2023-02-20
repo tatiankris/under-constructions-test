@@ -1,0 +1,119 @@
+.popup {
+  //font-family: 'Poppins', sans-serif ;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  //position: absolute;
+  //transform: translate(-50%, 50%);
+  //top: 50%;
+  //left: 50%;
+  //width: 1000px;
+  //height: 500px;
+  background: rgba(22, 44, 78, 0.6);
+  //z-index: 66000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popupBox {
+
+  width: 320px;
+  height: 370px;
+
+  background-color: #FFFFFF;
+  z-index: 3001;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 23.81px 16.55px;
+
+  position: relative;
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 37.5px;
+    color: #162C4E;
+  }
+
+  p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 29px 0;
+  }
+  //.crossButton {
+  //  width: 24px;
+  //  height: 24px;
+  //  position: absolute;
+  //  border-radius: 0;
+  //
+  //
+  //  top: 23.81px;
+  //  right: 16.55px;
+  //
+  //  background: none;
+  //  display: block;
+  //  //display: flex;
+  //  justify-content: center;
+  //  align-items: center;
+  //
+  //
+  //  img {
+  //
+  //  }
+  //}
+    .crossButton {
+      width: 55.7px;
+      height: 55.7px;
+      background: rgba(223, 34, 36, 0);
+      outline: none;
+      display: block;
+
+      position: absolute;
+      right: 0px;
+      top: 8px;
+      //bottom: 8px;
+
+      padding: 15px 15px;
+      //display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
+
+  .closeButton {
+    background: #1D4169;
+    border-radius: 40px;
+    outline: none;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    padding: 0;
+
+    &:hover {
+      background: #162c4e;
+    }
+    &:active {
+      background: #162c4e;
+    }
+  }
+}
+
+
+
+

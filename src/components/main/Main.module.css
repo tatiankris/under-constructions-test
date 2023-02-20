@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 72px;
+  color: #162C4E;
+  opacity: 0.39;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.improveInfo {
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+.eventPageCheck {
+  margin-top: 72px;
+  margin-bottom: 12px;
+}
+
+button {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  background: #1D4169;
+  border-radius: 40px;
+  width: 240px;
+  height: 60px;
+  text-align: left;
+  padding-left: 28px;
+  position: relative;
+}
+button:hover {
+  background: #162c4e;
+}
+button:active {
+  background: #162c4e;
+}
+
+.arrow {
+  position: absolute;
+  right: 20px;
+}
+
+/*# sourceMappingURL=Main.module.css.map */

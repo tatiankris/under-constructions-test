@@ -1,0 +1,39 @@
+.header {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  height: 60px;
+  width: 190px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  height: 100%;
+  width: 60px;
+}
+
+.lead {
+  height: 46px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif, "Poppins";
+  color: darkslategrey;
+}
+.lead span {
+  margin: 0;
+  padding: 0;
+  color: orange;
+  font-weight: 700;
+}
+.lead h6 {
+  color: palevioletred;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

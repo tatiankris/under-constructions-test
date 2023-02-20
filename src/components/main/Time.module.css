@@ -1,0 +1,48 @@
+.time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 129px;
+}
+
+.itemBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+}
+
+.item {
+  width: 132px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.num {
+  font-weight: 700;
+  font-size: 72px;
+  color: #162C4E;
+}
+
+.itemName {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 20px;
+  z-index: 6;
+  position: relative;
+}
+
+.decoration {
+  position: absolute;
+  z-index: -3;
+  top: -18px;
+  right: -38px;
+}
+
+/*# sourceMappingURL=Time.module.css.map */

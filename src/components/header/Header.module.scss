@@ -1,0 +1,54 @@
+.header {
+  height: 213px;
+  width: 100%;
+  position: relative;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+}
+
+
+
+
+.info {
+  //border: 1px solid black;
+  position: absolute;
+  transform: translate(-50%, 50%);
+  left: 50%;
+  top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 190px;
+}
+
+@media (max-width: 940px) {
+  .header {
+    height: 326px;
+  }
+  .info {
+    top: 65px;
+    left: 48%;
+  }
+
+
+}
+
+@media (max-width: 440px) {
+
+  .header {
+    height: 186px;
+  }
+  .logo {
+    width: 128px;
+  }
+
+
+}
+
+
+
